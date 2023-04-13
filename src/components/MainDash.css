@@ -1,0 +1,40 @@
+.mainDashContainer {
+    width: 83%;
+    display: flex;
+    align-items: center;
+    margin:36px 0px 36px 36px;
+    
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: scroll;
+    scrollbar-color: green;
+    overflow-x:hidden ;
+    /* background-color: green; */
+}
+.alertMainDash{
+    position: absolute;
+   
+    margin-right: 36px;
+    
+    z-index: 100;
+}
+
+
+.introBarContainer {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 24px;
+}
+.dataBarContainer {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 24px;
+}
+.proposalBarContainer {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 24px;
+}

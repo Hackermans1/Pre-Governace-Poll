@@ -1,0 +1,14 @@
+.dataBarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+
+    height: 35%;
+}
+.tempContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}

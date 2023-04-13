@@ -1,0 +1,90 @@
+.profilePicture {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    border-style: none;
+    box-sizing: border-box;
+    padding-bottom: 80px;
+}
+
+.commentContainer {
+    display: flex;
+    width: 100%;
+}
+.inputContainer {
+    border-width: 0;
+    border-bottom: 1px solid #d3d3d3;
+    border-style: solid;
+    width: 80%;
+    outline: none;
+    padding: 8px;
+}
+.commentPost {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80%;
+}
+.commentButton {
+    height: 40px;
+    min-width: 216px;
+    background-color: #e5007a;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 16px;
+    justify-content: space-around;
+    border-radius: 10px;
+    height: 40px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-style: none;
+    color: white;
+}
+
+/* select all children of commentContainer */
+/* .commentContainer > * {
+    border: 1px solid black;
+} */
+
+.commentLEFT {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+}
+
+.commentRIGHT {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    justify-content: space-betwwen;
+    width: 90%;
+}
+.commentAuthor {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.commentContent {
+    margin-top: 16px;
+}
+
+.commentFooter {
+    display: flex;
+    margin: 12px 0 12px 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.commentReplies {
+    
+}
+.commentReply {
+    margin-right: 80%;
+}
+.commentReply :hover{
+    color:#e5007a;
+}

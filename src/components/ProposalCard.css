@@ -1,0 +1,85 @@
+.proposalCardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 24px;
+    height: 80px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    box-shadow: 0px 4px 10px   #d9d9d9;
+    
+}
+.porposalCardDataContainer {
+    height: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.proposalCircleContainer {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+    border-radius: 24px;
+    background-color: #1E1E28;
+}
+.proposalAuthorDataContainer {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 12px;;
+}
+.proposalTitleContainer {
+    display: flex;
+    align-items: center;
+    height: 80%;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1E1E28;
+
+}
+
+.proposalTitleContainer :visited {
+    color: #1E1E28;
+}
+
+.proposalAuthorContainer {
+    display: flex;
+    align-items: center;
+    height: 20%;
+    font-size: 16px;
+    font-weight: 400;
+}
+.proposalReactionsContainer {
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.reactionContainer{
+    margin-right: 4px;
+}
+.reactionContainer:hover{
+    color:#e5007a;
+}
+.trashContainer{
+    color: #d3d3d3;
+}
+
+.trashContainer :hover{  
+    color:#e5007a;
+}
+.proposalReactionContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 16px;
+    
+}

@@ -1,0 +1,39 @@
+.container {
+    cursor: default;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: space-between;
+    background-color: #fafafa;
+    /* background: linear-gradient(113.5% 113.5% at 56.15% -32.22%, rgba(229, 0, 122, 0.3) 0%, rgba(243, 137, 193, 0.138844) 70.82%, rgba(255, 255, 255, 0) 100%)  */
+    background: radial-gradient(178.37% 178.37% at 50.03% -149.68%, rgba(229, 0, 122, 0.6) 0%, rgba(229, 0, 122, 0) 100%), #FFFFFF;
+
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #1E1E28;
+    border-radius: 100vh;
+
+}
+::-webkit-scrollbar-thumb {
+    background: #E5007A;
+    border-radius: 100vh;
+}
+.sideContainer {
+    cursor: default;
+    width: 17.5%;
+    height: 100%;
+}
+.mainContainer {
+    cursor: default;
+    width: 82.5%;
+    height: 100%;
+}
+
+.proposalContainer {
+    cursor: default;
+    width: 82.5%;
+    height: 100%;}

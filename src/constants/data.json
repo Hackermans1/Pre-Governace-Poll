@@ -1,0 +1,7 @@
+{
+    "pinataApi": "6879ddce4b18e7c237f8",
+    "pinataApiSecret": "577e0fb9a4f67bea1eaf8aafa88cd585ccc476168d37a1d2cf4e53dd1dff458c",
+    "pythonApiPrefix": "https://strawpoll-backend4.herokuapp.com/api",
+    "pythonApiPrefixDEBUG": "http://localhost:5000/api",
+    "ipfsUrlPrefix": "https://gateway.pinata.cloud/ipfs"
+}

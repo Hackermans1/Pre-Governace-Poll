@@ -1,0 +1,76 @@
+.modalHeadMessage1 {
+    font-size: 48px;
+    color: #e5007a;
+    font-weight: 600;
+    margin-bottom: 48px;
+}
+.modalHeadMessage2 {
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 2px;
+}
+.modalContainer {
+    /* border-style: none;
+        border-width: 0px; */
+    border-radius: 10px;
+    margin: 0px;
+    color: #1e1e28;
+}
+.proposerAddressContainer {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.modalStyleContainer {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 80%;
+    transform: translate(-50%, -50%);
+    background-color: #1e1e28;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 0px;
+    border-color: #1e1e28;
+    margin: 0px;
+    padding: 0px;
+    outline: 0px !important;
+}
+
+.boxStyleContainer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    height: 100%;
+    width: 100%;
+    padding-top: 48px;
+    padding-left: 256px;
+    box-sizing: border-box;
+}
+.editorContainer {
+    width: 82.1%;
+}
+
+.buttonModalContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    border-radius: 10px;
+    width: 30%;
+    background-color: #e5007a;
+    color: white;
+    margin-top: 16px;
+    margin-left: 52.1%;
+}
+
+.buttonModalContainer:hover {
+    background-color: #e5007a;
+    color: #1e1e28;
+    cursor: pointer;
+    /* SET COLOR IN BLACK */
+}

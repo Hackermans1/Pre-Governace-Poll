@@ -1,0 +1,118 @@
+/* add gradient by kartik 24a */
+
+.dataCardContainer {
+    display: flex;
+    flex-direction: column;
+    width: 245px;
+    height: 162px;
+    /* background-color: #1e1e28; */
+    color: white;
+    padding-top: 20px;
+    padding-right:8px;
+    box-sizing: border-box;
+
+    /* margin-top: 20px; */
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px   #d9d9d9;
+
+    /* margin-right: 64px; */
+    /* transition: all 0.2s ease-in-out; */
+    
+    transition: 0.2s;
+
+    /* 1 */
+    /* background-image: linear-gradient(to right,  #1e1e28 0%,  #1e1e28 40%, #847585  50%,  #1e1e28 60%, #1e1e28  100%); */
+    
+    
+    /* 2 */
+    /* background-color:hsla(0,0%,100%,1);
+    background-image:
+    radial-gradient(at 105% 105%, hsla(240,0%,0%,1) 0px, transparent 50%),
+    radial-gradient(at 3% 2%, #E5007A 0px, transparent 50%);
+    background-size: 400% auto ; */
+
+    /* 3,4,5.. */
+    /* background: linear-gradient(180.12deg, #e5007a -4.88%, #FFFFFF 27.66%, #FFFFFF 49.59%, #1E1E28 99.9%); */
+
+    /* background: linear-gradient(180.12deg, #e5007a -4.88%, #FFFFFF 35.66%, #FFFFFF 49.59%, #1E1E28 99.9%); */
+
+    /* background: linear-gradient(180.12deg, #1E1E28 -4.88%, #ffecf6 35.66%, #e5007a 40.59%, #1E1E28 99.9%); */
+
+    /* background: linear-gradient(180.12deg, #1E1E28 -4.88%,  #e5007a 35.66%, #FFFFFF 40.59%, #1E1E28 99.9%); */
+
+    background: linear-gradient(180.12deg, #1E1E28 -4.88%, #1E1E28 26.66%, #FFFFFF 49.59%, #E5007A 99.9%);
+
+    background-size: auto 300% ;
+    
+}
+
+
+.titleContainer {
+    font-size: 16px;
+    font-weight: 600;
+    height: 25%;
+    padding-left: 20px;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+}
+.dataContainer {
+    font-size: 28px;
+    font-weight: 600;
+    height: 35%;
+    padding-left: 20px;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+}
+.extraContainer {
+    display: flex;
+    justify-content: flex-start;
+    height: 20%;
+    padding-left: 20px;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    color:white;
+}
+.viewMoreContainer {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    box-sizing: border-box;
+    padding-bottom: 15px;
+    width: 100%;
+    color:white;
+}
+.outerProgressBarContainer{
+    width:90%;
+    height:5px;
+    border-radius: 2px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.lineContainer {
+    width: 100%;
+}
+.dataCardContainer:hover > .titleContainer {
+    height: 23%;
+    
+}
+.dataCardContainer:hover > .dataContainer {
+    height: 35%;
+    
+}
+.dataCardContainer:hover > .extraContainer {
+    height: 22%;
+}
+
+.dataCardContainer:hover .viewMoreContainer {
+    color: white;
+}
+
+.dataCardContainer:hover {
+    background-position: 0 100%; /* change the direction of the change here */
+}
+
