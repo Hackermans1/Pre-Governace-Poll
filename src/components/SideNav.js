@@ -7,7 +7,7 @@ import { faGithub, faFacebook,faTwitter,faDiscord } from "@fortawesome/free-bran
 function SideNav() {
     return (
         <div className="sideNavContainer">
-            <div className="logoContainer">Straw Poll</div>
+            <div className="logoContainer">A Straw Poll</div>
             <div className="sideOptionsContainer">
                 <div className="optionContainer">Dashboard</div>
                 <div className="optionUnselectedContainer">My Proposal</div>
