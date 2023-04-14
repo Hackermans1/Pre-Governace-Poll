@@ -47,7 +47,7 @@ Here Hyperlane plays a important part as it help the platforms to be function on
 ### IPFS for Data Storage
 We store the proposal metadata on-chain using **ipfs** leveraging **pinata** apis.
 
-### Flask Backend and Database
+### Propoasl Page
 Each proposal has a discussion page, where users can post comments on the proposal, and vote on other users' comments. These discussions are stored in a **SQL** database connected through **REST API** built on **Flask**. 
 <br><br>
 ## Challenges we ran into
