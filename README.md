@@ -1,8 +1,3 @@
-# How to run locally
-
-## Prereqs:
-NPM.
-
 ## To run:
 
 ```
