@@ -11,6 +11,15 @@ $ npm run start
 ![Landing Page](https://github.com/Hackermans1/Pre-Governace-Poll/blob/ad2b9950a6501961b4f8c67313ca7661ff7c03df/landing%20page.png)
 *<div align="center"> The Pre Governance Poll Dapp Landing Page</div>*
 
+## What we learned
+
+* Quick developement in a fast paced hackathon project
+* Create dapp using create-react-app.
+* Chainlink, ipfs, smart contract, Open Zepplin
+* Hyperlane
+* React + moralis, 
+* Database, flask, REPLIT backend
+
 ## Inspiration
 
 Currently anyone can propose a referendum by depositing the minimum amount of tokens for a certain which is eventually refunded.If someone agrees with the proposal, they may deposit the same amount of tokens to support it - this action is called endorsing. The proposal with the highest amount of bonded support will be selected. But for instance, three accounts bonding 20 DOT each would "outweigh" ten accounts bonding a single DOT each and also if the lock period for one is less than the other, leads to their voting power counting as less. And since many low level accounts don't feel comfortable with locking it for an indeterminate amount of time hence it becomes a problem. <br>
@@ -80,12 +89,6 @@ Proposal metadata is put on IPFS. Discussion is built on flask and stored in SQL
 ### UI/UX Design
 We designed a web solution that is more intuitive to use and interact with for users belonging to both technical and non-technical backgrounds. <br><br>
 
-## What we learned
 
-* Quick developement in a fast paced hackathon project
-* Chainlink, ipfs, smart contract, Open Zepplin
-* Hyperlane
-* React + moralis, 
-* Database, flask, REPLIT backend
 <br><br>
 
