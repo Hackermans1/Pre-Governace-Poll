@@ -41,7 +41,7 @@ function Landing() {
             </div>
             <div className="mainLandingContainer">
                 <div className="headingLandingContainer">
-                    <div className="heading1Container">Straw Poll</div>
+                    <div className="heading1Container">Preliminary Opinion Poll</div>
                     <div className="heading2Container">
                         A democratised and accesible precursor to governance{" "}
                     </div>
@@ -49,29 +49,29 @@ function Landing() {
                         <div className="socialLogoContainer">
                             <FontAwesomeIcon
                                 icon={faGithub}
-                                color="#e5007a"
-                                width={16}
+                                color="#1be0e0"
+                                width={20}
                             />
                         </div>
                         <div className="socialLogoContainer">
                             <FontAwesomeIcon
                                 icon={faTwitter}
-                                color="#e5007a"
-                                width={16}
+                                color="#1be0e0"
+                                width={20}
                             />
                         </div>
                         <div className="socialLogoContainer">
                             <FontAwesomeIcon
                                 icon={faDiscord}
-                                color="#e5007a"
-                                width={16}
+                                color="##1be0e0"
+                                width={20}
                             />
                         </div>
                         <div className="socialLogoContainer">
                             <FontAwesomeIcon
                                 icon={faFacebook}
-                                color="#e5007a"
-                                width={16}
+                                color="#1be0e0"
+                                width={20}
                             />
                         </div>
                     </div>

@@ -26,7 +26,7 @@
     align-items: center;
     font-size: 24px;
     font-weight: 600;
-    color: #e5007a;
+    color: #1be0e0;
 }
 .buttonNavContainer {
     display: flex;
@@ -35,7 +35,7 @@
     height: 48px;
     border-radius: 10px;
     width: 20%;
-    background-color: #e5007a;
+    background-color: #1be0e0;
     color: white;
     text-decoration: none;
 }
@@ -46,7 +46,7 @@
     justify-content: center;
     margin-left: 7%;
 
-    color: #e5007a;
+    color: #1be0e0;
 }
 .heading1Container {
     font-size: 64px;

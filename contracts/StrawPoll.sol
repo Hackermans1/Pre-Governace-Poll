@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 
 import "@chainlink/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol";
 import "./DemocracyInterface.sol";
-
+import "@hyperlane/contracts/contracts/Hyperlane.sol";
 
 contract StrawPoll {
     
@@ -16,6 +16,16 @@ contract StrawPoll {
         address proposer;
         string name;        
     }
+    Hyperlane hyperlaneInstance;
+    
+    constructor() {
+    hyperlaneInstance = new Hyperlane();
+  }
+
+  function transferMessage(uint256 recipientChainId, address recipientAddress, string memory message) public {
+    bytes memory data = abi.encode(message);
+    hyperlaneInstance.transfer(recipientChainId, recipientAddress, data);
+  }
    
     //array of proposals
     Proposal[] public proposals;
