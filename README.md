@@ -8,7 +8,7 @@ $ npm run start
 
 # Project Story
 
-![Landing Page]([https://raw.githubusercontent.com/alluringambiguous/Frontend-StrawPoll/master/a%20landing%20page.png](https://github.com/Hackermans1/Pre-Governace-Poll/blob/2ca76971ba0fff20b78ceb48a27f7234c8bb702c/landing%20page.png))
+![Landing Page](https://github.com/Hackermans1/Pre-Governace-Poll/blob/ad2b9950a6501961b4f8c67313ca7661ff7c03df/landing%20page.png)
 *<div align="center"> The Pre Governance Poll Dapp Landing Page</div>*
 
 ## Inspiration
