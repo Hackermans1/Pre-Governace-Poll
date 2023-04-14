@@ -37,7 +37,7 @@ The app collects proposal information (i.e. likes, dislikes, proposer etc) **on-
 <br><br>
 ## How we built it
 
-![Architecture](https://raw.githubusercontent.com/alluringambiguous/Frontend-StrawPoll/master/architecture.png)
+![Architecture](https://github.com/Hackermans1/Pre-Governace-Poll/blob/5d1b35465ee66da92b3f63a189cef98710859a7f/photo_6181549303475057727_y.jpg)
 *<div align="center"> Dapp Architecture </div>*
 
 ### Smart Contract
