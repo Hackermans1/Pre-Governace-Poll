@@ -71,7 +71,7 @@
     },
     {
         "inputs": [],
-        "name": "getPriceGLMRToDollar",
+        "name": "getPriceDOTToDollar",
         "outputs": [
             {
                 "internalType": "uint256",

@@ -21,6 +21,7 @@ contract StrawPoll {
     constructor() {
     hyperlaneInstance = new Hyperlane();
   }
+  //using QueryAPI provided by hyperlane to call function across both testnets.
 
   function transferMessage(uint256 recipientChainId, address recipientAddress, string memory message) public {
     bytes memory data = abi.encode(message);

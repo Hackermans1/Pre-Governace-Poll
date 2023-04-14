@@ -35,15 +35,15 @@ function DataBar() {
         functionName: "topContract",
         params: {},
     })
-    const { runContractFunction: getPriceGLMRToDollar } = useWeb3Contract({
+    const { runContractFunction: getPriceDOTToDollar } = useWeb3Contract({
         abi: abi,
         contractAddress: contractAddress,
-        functionName: "getPriceGLMRToDollar",
+        functionName: "getPriceDOTToDollar",
         params: {},
     })
     async function updateUi() {
         const topCont = await topContract()
-        const glmrToUsd = await getPriceGLMRToDollar()
+        const dotToUSD = await getPriceDOTToDollar()
         const topA = await topCont.uri
         const topN = await topCont.name
         setCard([])
@@ -67,9 +67,9 @@ function DataBar() {
                 />,
                 <DataCard
                     key={2}
-                    Title={"GLMR Price"}
-                    Data={`$ ${glmrToUsd?(Math.round(glmrToUsd / 40833 * 10000) / 10000):(0.4357)}`}
-                    TopContractAddress={"http://glmrtousdconverter"}
+                    Title={"DOT Price"}
+                    Data={`$ ${dotToUSD?(Math.round(dotToUSD / 6.67)):(6.60)}`}
+                    TopContractAddress={"http://dottousdconverter"}
                 />,
                 <DataCard
                     key={3}
@@ -101,7 +101,7 @@ function DataBar() {
                     Link={"http:/ex...s.com"}
                     TopContractAddress = {topAddr}
                 /> */}
-                {/* <DataCard Title={"Price of GLMR"} Data={"$ 0.52"} />
+                {/* <DataCard Title={"Price of DOT"} Data={"$ 6.28"} />
                 <DataCard
                     Title={"Next Burn"}
                     Data={"4 Days"}

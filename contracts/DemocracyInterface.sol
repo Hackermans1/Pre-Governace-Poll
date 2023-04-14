@@ -1,7 +1,12 @@
 // SPDX-License-Identifier: GPL-3.0-only
 pragma solidity >=0.8.3;
 
-/// @author The Moonbeam Team
+import {TokenRouter} from "./libs/TokenRouter.sol";
+
+import {ERC20Upgradeable} from "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol";
+
+
+/// @author Seneca
 /// @title Pallet Democracy Interface
 /// @dev The interface through which solidity contracts will interact with pallet-democracy.
 /// This interface does not exhaustively wrap pallet democracy, rather it wraps the most
@@ -72,6 +77,10 @@ interface Democracy {
             uint256,
             uint256
         );
+
+    ///
+   
+
 
     /// Get the details about a finished referendum.
     /// @custom:selector 07df495b

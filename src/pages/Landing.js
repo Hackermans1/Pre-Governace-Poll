@@ -23,7 +23,7 @@ function Landing() {
     return (
         <div className="landingContainer">
             <div className="navContainer">
-                <div className="logoNavContainer">StrawPoll</div>
+                <div className="logoNavContainer">Pre-Gov Polls</div>
                 <div
                     to="/home"
                     onClick={async () => {
@@ -41,7 +41,7 @@ function Landing() {
             </div>
             <div className="mainLandingContainer">
                 <div className="headingLandingContainer">
-                    <div className="heading1Container">Preliminary Opinion Poll</div>
+                    <div className="heading1Container">A Preliminary Opinion Poll</div>
                     <div className="heading2Container">
                         A democratised and accesible precursor to governance{" "}
                     </div>
@@ -50,28 +50,28 @@ function Landing() {
                             <FontAwesomeIcon
                                 icon={faGithub}
                                 color="#1be0e0"
-                                width={20}
+                                width={18}
                             />
                         </div>
                         <div className="socialLogoContainer">
                             <FontAwesomeIcon
                                 icon={faTwitter}
                                 color="#1be0e0"
-                                width={20}
+                                width={18}
                             />
                         </div>
                         <div className="socialLogoContainer">
                             <FontAwesomeIcon
                                 icon={faDiscord}
                                 color="##1be0e0"
-                                width={20}
+                                width={18}
                             />
                         </div>
                         <div className="socialLogoContainer">
                             <FontAwesomeIcon
                                 icon={faFacebook}
                                 color="#1be0e0"
-                                width={20}
+                                width={18}
                             />
                         </div>
                     </div>

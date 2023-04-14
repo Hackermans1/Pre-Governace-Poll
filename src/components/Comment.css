@@ -28,7 +28,7 @@
 .commentButton {
     height: 40px;
     min-width: 216px;
-    background-color: #e5007a;
+    background-color: #1be0e0;
     display: flex;
     align-items: center;
     box-sizing: border-box;
@@ -86,5 +86,5 @@
     margin-right: 80%;
 }
 .commentReply :hover{
-    color:#e5007a;
+    color:#1be0e0;
 }
