@@ -26,7 +26,7 @@ Our *"Pre Governance" Dapp* is a intuitive and a community-based web solution th
 The app collects proposal information (i.e. likes, dislikes, proposer etc) **on-chain**. Users can read, vote and discuss the proposals. Further, the top voted proposal is **submitted for official governance periodically**. This information is then conveyed **across all the associated chains**. <br>
 
  
- ![Home page](https://raw.githubusercontent.com/alluringambiguous/Frontend-StrawPoll/master/homepage.png)
+ ![Home page](https://github.com/Hackermans1/Pre-Governace-Poll/blob/2ca76971ba0fff20b78ceb48a27f7234c8bb702c/landing%20page.png)
  *<div align="center"> Website Homepage </div>*
  
 <br><br>
